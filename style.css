@@ -7,13 +7,19 @@ body {
     font-family: 'Baloo Bhai 2', cursive;
 }
 
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .left_branding {
-    display: inline-block;
-    /* background-color: red; */
-    /* border: 3px solid red; */
-    position: absolute;
-    top: 10px;
-    left: 20px;
+    padding: 4px 0px 0px 10px;
+}
+
+.right_actions {
+    padding: 4px 10px 0px 0px;
 }
 
 .left_branding div {
@@ -27,33 +33,10 @@ body {
     filter: invert(100%);
 }
 
-.mid_navigation {
-    display: block;
-    /* border: 3px solid red; */
-    margin: 4px auto;
-    width: 45%;
-    padding: 3px 5px;
-}
-
-.right_actions {
-    display: inline-block;
-    /* border: 3px solid red; */
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-.navbar {
-    display: inline-block;
-    margin: 3px;
-    padding: 5px 0px 5px 0px;
-    /* padding-inline-start: 0px; */
-}
-
 .navbar li {
     list-style: none;
     display: inline-block;
-    font-size: 19px;
+    font-size: 20px;
     /* padding: 5px 21px; */
 }
 
@@ -99,7 +82,7 @@ body {
 
 .container button {
     display: block;
-    width: 21%;
+    flex-basis: 34%;
     margin: 19px auto;
     padding: 4px;
 }
@@ -126,8 +109,8 @@ body {
     /* border: 4px solid #cac6c6d4; */
     border-radius: 17px;
     width: 30%;
-    position: absolute;
-    top: 115%;
+    position: relative;
+    bottom: 5px;
     left: 68%;
     background-color: #7a9bb13b;
 }
@@ -159,4 +142,10 @@ body {
     margin: 2px auto;
     padding: 3px 11px;
     /* border: 3px solid red; */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
