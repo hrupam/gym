@@ -44,6 +44,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 20px;
+    transition: .4s;
 }
 
 .navbar li a:hover {
@@ -60,6 +61,7 @@ body {
     border: 3px solid #80808033;
     font-size: 17px;
     font-family: 'Baloo Bhai 2', cursive;
+    transition: .3s;
 }
 
 .btn:hover {
@@ -132,6 +134,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 2px 27px;
+    transition: .4s;
 }
 
 .dev_id li a:hover {
