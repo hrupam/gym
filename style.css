@@ -9,17 +9,24 @@ body {
 
 .flexcontainer {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .left_branding {
-    padding: 4px 0px 0px 10px;
+    padding: 4px 0px 0px 12px;
+    align-self: center;
+}
+
+.mid_navigation {
+    align-self: flex-start;
 }
 
 .right_actions {
-    padding: 4px 10px 0px 0px;
+    padding: 4px 0px 0px 12px;
+    align-self: center;
 }
 
 .left_branding div {
@@ -84,7 +91,7 @@ body {
 
 .container button {
     display: block;
-    flex-basis: 34%;
+    width: 18%;
     margin: 19px auto;
     padding: 4px;
 }
@@ -94,7 +101,7 @@ body {
 }
 
 .form_group input {
-    margin: 10px auto;
+    margin: 12px auto;
     padding: 3px 27px;
     text-align: center;
     display: block;
@@ -122,6 +129,16 @@ body {
     text-align: center;
 }
 
+.dev_id {
+    margin: 2px auto;
+    padding: 3px 11px;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .dev_id li {
     list-style: none;
     display: inline-block;
@@ -133,22 +150,11 @@ body {
 .dev_id li a {
     text-decoration: none;
     color: white;
-    padding: 2px 27px;
+    padding: 0px 14px;
     transition: .4s;
+    margin: 9px;
 }
 
 .dev_id li a:hover {
     color: #b5d2cbf2;
-}
-
-.dev_id {
-    margin: 2px auto;
-    padding: 3px 11px;
-    /* border: 3px solid red; */
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
