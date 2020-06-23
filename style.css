@@ -141,7 +141,7 @@ body {
 
 .dev_id li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 18px;
     border: 2px solid gray;
     border-radius: 12px;
@@ -150,7 +150,7 @@ body {
 .dev_id li a {
     text-decoration: none;
     color: white;
-    padding: 0px 14px;
+    padding: 0px 12px;
     transition: .4s;
     margin: 9px;
 }
