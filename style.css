@@ -1,8 +1,9 @@
 body {
     color: white;
+    /* background-color: black; */
     margin: 0px;
     padding: 0px;
-    background: url('images/bg.jpg') no-repeat;
+    background: url('images/bg.jpg') no-repeat center center;
     background-size: cover;
     font-family: 'Baloo Bhai 2', cursive;
 }
@@ -51,11 +52,13 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 20px;
-    transition: .4s;
 }
 
 .navbar li a:hover {
     color: #a9aeb1;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
 }
 
 .btn {
@@ -68,11 +71,16 @@ body {
     border: 3px solid #80808033;
     font-size: 17px;
     font-family: 'Baloo Bhai 2', cursive;
-    transition: .3s;
+    width: 86px;
+    height: 40px;
 }
 
 .btn:hover {
     background-color: #757575;
+    transform: scale(1.12);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    /* transform: translateX(5px); */
 }
 
 .container {
@@ -80,7 +88,7 @@ body {
     padding: 5px 27px;
     border: 3px solid #e6e6e6fa;
     border-radius: 38px;
-    width: 28%;
+    width: 32%;
     display: inline-block;
 }
 
